@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Flag indicating whether the current device is "voice capable". -->
+    <bool name="config_voice_capable">false</bool>
+
+    <!-- Flag indicating whether the current device allows sms service. -->
+    <bool name="config_sms_capable">false</bool>
+
+    <!-- Flag indicating whether the current device allows data. -->
+    <bool name="config_mobile_data_capable">false</bool>
+
+    <!-- Number of physical SIM slots on the device. -->
+    <integer name="config_num_physical_slots">0</integer>
+
+    <!-- Flag indicating device support for EAP SIM, AKA, AKA' -->
+    <bool name="config_eap_sim_based_auth_supported">false</bool>
+
+    <string-array translatable="false" name="networkAttributes">
+        <item>"wifi,1,1,1,-1,true"</item>
+        <item>"bluetooth,7,7,0,-1,true"</item>
+        <item>"wifi_p2p,13,1,0,-1,true"</item>
+        <item>"ethernet,9,9,2,-1,true"</item>
+    </string-array>
+
+    <string-array translatable="false" name="radioAttributes">
+        <item>"1,1"</item>
+        <item>"0,1"</item>
+    </string-array>
+</resources>
