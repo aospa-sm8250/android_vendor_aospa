@@ -4,6 +4,8 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest>
+ <remove-project name="AOSPA/device/qcom/sepolicy_vndr" />
+  <project path="device/qcom/sepolicy_vndr" name="aospa-sm8250/android_device_qcom_sepolicy_vndr" remote="aospa" revision="calcite-legacy"/>
   <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="aospa-sm8250/android_hardware_qcom_audio" remote="aospa" revision="calcite-sm8250"/>
   <project path="hardware/qcom/display" name="aospa-sm8250/android_hardware_qcom_display" remote="aospa" revision="calcite-sm8250"/>
   <project path="hardware/qcom/gps" name="aospa-sm8250/android_hardware_qcom_gps" remote="aospa" revision="calcite-legacy-component"/>
